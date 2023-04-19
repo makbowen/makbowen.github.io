@@ -1,0 +1,86 @@
+<html lang = "en" >
+<head>
+<meta charset ="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title> CSCE Project  </title> 
+<!-- Makayla Bowen, CSCE 102 - 014, 2/15/23 -->
+</head>
+<body>
+	<div id = "content">
+			<header>  
+			<h1> Makayla Bowen </h1>
+			</header>
+	</div>
+	<nav id = "main-nav"> 
+			<ul> 
+				<li>  <a href= "index.html"> Home </a> </li>
+				<li> <a href= "quiz.html"> Quiz </a> </li>
+				<li>  <a href= "contact.html"> Contact Me </a> </li>
+			</ul>
+	</nav>
+	<main> 
+<div class = "col-container"> 
+	<div class = "col-one">  
+	<h2> About Me Quiz </h2> 
+	<p> 
+					<label for = "txt-color" > Favorite Color: </label> 
+					<select id = "txt-color"> 
+						<option> Blue </option> 
+						<option> Purple </option> 
+						<option> Pink </option> 
+						<option> Yellow </option> 
+						<option> Green </option> 
+					</select> 
+			</p> 
+			<p> 
+				<label for = "txt-grade" > What school year am I? </label> 
+					<select id = "txt-row"> 
+						<option> Freshman </option> 
+						<option> Sophmore </option> 
+						<option> Junior </option> 
+						<option>Senior </option>
+					</select> 
+			</p> 
+			
+			<p> 
+				<label for = "txt-major" > What major am I?  </label> 
+					<select id = "txt-row"> 
+						<option> Buisness </option> 
+						<option> Psychology </option> 
+						<option> public Health </option> 
+						<option> Biology</option>
+					</select> 
+			</p> 
+					
+			<p> 
+				<label for = "txt-future" > What is my future career goal?  </label> 
+					<select id = "txt-row"> 
+						<option> Researcher </option> 
+						<option> Counselor </option> 
+						<option> Nurse Practitoner </option> 
+						<option> Physician Assistant </option>
+					</select> 
+			</p> 
+			
+				<p > 
+					<button id="btn-submit" onclick = "showResults()"> Submit </button> 
+			</p> 
+		
+		
+			<section id = "result" class = "design hidden"> 
+			</section>
+			
+		
+</div> 
+</div>
+</main>
+
+	<footer>
+	<p> &copy; bowen </p> 
+	</footer>
+	
+<script src ="script.js"> </script>
+
+</body> 
+
+</html>
